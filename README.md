@@ -1,7 +1,8 @@
 # Final Project of Digital Logic (Reti Logiche)
 
-Prof. Fornaciari, Prof. Palermo, Prof. Salice  
-(January 12, 2021)
+Professor D. Fornaciari, Professor G. Palermo, Professor F. Salice  
+Politecnico di Milano  
+January 12, 2021
 
 ## General Description
 
