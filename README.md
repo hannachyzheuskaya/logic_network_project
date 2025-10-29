@@ -32,12 +32,13 @@ An example of operation is the following, where the first bit on the left (the m
 - INPUT BYTE = 10100010  
   (it is serialized as 1 at time t, 0 at time t+1, 1 at time t+2, 0 at time t+3, 0 at time t+4, 0 at time t+5, 1 at time t+6, and 0 at time t+7)
 
-By applying the convolutional algorithm, the following sequence of bit pairs is obtained:
+**By applying the convolutional algorithm, the following sequence of bit pairs is obtained:**
 
-T 0 1 2 3 4 5 6 7  
-Uk 1 0 1 0 0 0 1 0  
-P1k 1 0 0 0 1 0 1 0  
-P2k 1 1 0 1 1 1 1 1
+|     | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Uk  | 1   | 0   | 1   | 0   | 0   | 0   | 1   | 0   |
+| P1k | 1   | 0   | 0   | 0   | 1   | 0   | 1   | 0   |
+| P2k | 1   | 1   | 0   | 1   | 1   | 1   | 1   | 1   |
 
 ## Data
 
