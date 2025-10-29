@@ -19,4 +19,4 @@ Using the notation from the figure, the input bit `uk` generates the two bits `p
 Finally, this continuous stream is parallelized into 8 bits to form the 8-bit output words.  
 The output sequence `Z` is therefore the sequence of these parallelized 8-bit values `yk`.
 
-![Convolutional encoder with rate 1/2](ing1.jpeg)
+<img src="./img1.jpeg" width="400">
