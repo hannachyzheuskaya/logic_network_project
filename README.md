@@ -2,7 +2,6 @@
 
 Professor D. Fornaciari, Professor G. Palermo, Professor F. Salice  
 Politecnico di Milano  
-January 12, 2021
 
 ## General Description
 
