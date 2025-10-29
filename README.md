@@ -19,13 +19,13 @@ Using the notation from the figure, the input bit `uk` generates the two bits `p
 Finally, this continuous stream is parallelized into 8 bits to form the 8-bit output words.  
 The output sequence `Z` is therefore the sequence of these parallelized 8-bit values `yk`.
 
-<img src="./images/img1.jpeg" width="400">
+<img src="./docs/images/img1.jpeg" width="400">
 
 The length of the stream `U` is `8 * W`, while the length of the stream `Y` is `8 * W * 2` (so `Z = 2 * W`).  
 The convolutional encoder is a synchronous sequential machine with a global clock and a reset signal.  
 Its state diagram has `00` as the initial state, and each transition is annotated in the form `Uk / p1k, p2k`, where the outputs are given in the order `p1k` then `p2k`.
 
-<img src="./images/img2.jpeg" width="400">
+<img src="./docs/images/img2.jpeg" width="400">
 
 An example of operation is the following, where the first bit on the left (the most significant bit of the BYTE) is the first serial bit to be processed:
 
